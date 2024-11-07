@@ -1,0 +1,156 @@
+*{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linkheader{
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    margin-right: 23px;
+    line-height: 29px;
+    cursor: pointer;
+
+}
+
+.botaologin{
+    background: #665AE1;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 50px;
+    line-height: 29px;
+    cursor: pointer;
+
+}
+
+header{
+    margin: 44px 0 144px 76px;
+}
+
+
+
+.caixaprincipal{
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+img{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+
+
+}
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+    height: 122px;
+    line-height: 121.9px;
+
+
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    height: 71px;
+    line-height: 70.7px;
+    
+
+
+}
+
+p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    width: 515px;
+    margin: 32px 0px 65px;
+
+
+}
+
+.botaoexplore{
+    color: #000000;
+    background: #ADFF00;
+    border-radius: 50px;
+    border: none;
+    height: 64px;
+    width: 239px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+
+@media(max-width: 1300px){
+
+    header{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    main{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin-top: 100px;
+        
+    }
+
+    img{
+        width: 354px;
+        height: 317px;
+        display: block;
+        margin: 0 auto 24px auto;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 60.95px;
+        width: 263px;
+        height: auto;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 36.57px;
+        width: 232px;
+        height: auto;
+        display: block;
+        margin: 7px auto 17px auto;
+    }
+
+    .caixaprincipal{
+        display: block;
+        width: 265px;
+        margin: 0 auto;
+    }
+
+    .botaoexplore{
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
